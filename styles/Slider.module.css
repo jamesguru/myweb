@@ -1,0 +1,66 @@
+.container{
+
+
+width: 100vw;
+height: 100vh;
+margin: 0;
+left: 0;
+
+display: flex;
+
+background-color:#24252e;
+
+color: #ffffff;
+
+padding: 100px;
+
+
+
+
+}
+
+.img{
+
+
+    object-fit: contain;
+
+    
+    z-index:100;
+
+    transform: rotate(8.5deg);
+    
+
+}
+
+.img2{
+
+    object-fit: contain;
+
+    
+
+    cursor: pointer;
+
+    transition: all 1.5s ease;
+
+    
+}
+
+.img2:hover{
+
+    transform: scale(1.2);
+
+    object-fit: scale-down;
+
+    margin-left: -150px;
+}
+
+
+.wrapper{
+
+
+    margin: 100px 100px;
+
+    width: 40%;
+
+   
+}
